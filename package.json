@@ -1,14 +1,14 @@
 {
-  "name": "starwars-names",
+  "name": "skiresorts-names",
   "version": "1.0.0",
-  "description": "Get random Star Wars names.",
+  "description": "Get random Ski Resort names.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acareaga/starwars-names.git"
+    "url": "git+https://github.com/acareaga/skiresorts-names.git"
   },
   "keywords": [
     "random",
@@ -18,9 +18,9 @@
   "author": "Aaron Careaga <aaroncareaga@gmail.com> (http://www.aaroncareaga.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/acareaga/starwars-names/issues"
+    "url": "https://github.com/acareaga/skiresorts-names/issues"
   },
-  "homepage": "https://github.com/acareaga/starwars-names#readme",
+  "homepage": "https://github.com/acareaga/skiresorts-names#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
   }

@@ -1,2 +1,2 @@
-# starwars-names
-Get a random Star Wars name.
+# ski-resorts
+Get a random resort from a list of ski areas in the US North East, Rocky Mountain, and West Coast.
