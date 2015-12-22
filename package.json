@@ -1,14 +1,16 @@
 {
   "name": "ski-resorts",
-  "version": "1.1.0",
+  "version": "0.0.0-semantically-released",
   "description": "Get a random Ski Resort name or a list of Ski Resorts in the US West, Rockies, and North East.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acareaga/ski-resorts.git"
+    "url": "https://github.com/acareaga/ski-resorts.git"
   },
   "keywords": [
     "random",
@@ -24,5 +26,15 @@
   "homepage": "https://github.com/acareaga/ski-resorts#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.4.1",
+    "commitizen": "2.4.6",
+    "cz-conventional-changelog": "1.1.5",
+    "mocha": "2.3.4",
+    "semantic-release": "^4.3.5"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
