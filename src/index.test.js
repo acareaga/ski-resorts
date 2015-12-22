@@ -23,5 +23,13 @@ describe('ski-resorts', function(){
       var randomItem = skiResorts.random();
       expect(skiResorts.all).to.include(randomItem);
     });
+
+    it('should return an array of random items if passed a number', function() {
+      var randomItems = skiResorts.random(3);
+      expect(randomItems).to.have.length(3);
+      randomItems.forEach(function(item){
+        expect(skiResorts.all).to.include(item);
+      });
+    });
   });
 });
