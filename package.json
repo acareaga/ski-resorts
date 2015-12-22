@@ -1,26 +1,27 @@
 {
-  "name": "skiresorts-names",
-  "version": "1.0.0",
-  "description": "Get random Ski Resort names.",
+  "name": "ski-resorts",
+  "version": "1.1.0",
+  "description": "Get a random Ski Resort name or a list of Ski Resorts in the US West, Rockies, and North East.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acareaga/skiresorts-names.git"
+    "url": "git+https://github.com/acareaga/ski-resorts.git"
   },
   "keywords": [
     "random",
-    "star",
-    "wars"
+    "skiing",
+    "ski",
+    "resort"
   ],
   "author": "Aaron Careaga <aaroncareaga@gmail.com> (http://www.aaroncareaga.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/acareaga/skiresorts-names/issues"
+    "url": "https://github.com/acareaga/ski-resorts/issues"
   },
-  "homepage": "https://github.com/acareaga/skiresorts-names#readme",
+  "homepage": "https://github.com/acareaga/ski-resorts#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
   }
