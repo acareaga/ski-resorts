@@ -33,9 +33,10 @@ skiResorts.random(3)
 
 ## Dependencies
 
-The module is built with the following versions:
+Built with the following versions:
 
 ```
+"unique-random-array": "1.0.0",
 "chai": "3.4.1",
 "codecov.io": "0.1.6",
 "commitizen": "2.4.6",
@@ -61,7 +62,7 @@ To submit patches:
 
 ### Future
 
-Features that would be nice to include: 
+Features that would be nice to include:
 * Integration with Forecast.io's weather API
 
 Please open an issue if you have any other updates that would be nice to have.

@@ -1,7 +1,7 @@
 {
   "name": "ski-resorts",
   "version": "0.0.0-semantically-released",
-  "description": "Get a random Ski Resort name or a list of Ski Resorts in the US West, Rockies, and North East.",
+  "description": "An easy to use library of all ski resorts in the United States",
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
@@ -19,7 +19,9 @@
     "random",
     "skiing",
     "ski",
-    "resort"
+    "resort",
+    "backcountry",
+    "weather"
   ],
   "author": "Aaron Careaga <aaroncareaga@gmail.com> (http://www.aaroncareaga.com/)",
   "license": "MIT",
