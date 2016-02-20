@@ -1,6 +1,6 @@
 {
   "name": "ski-resorts",
-  "version": "0.0.0-semantically-released",
+  "version": "1.3.0",
   "description": "An easy to use library of all ski resorts in the United States",
   "main": "src/index.js",
   "scripts": {
