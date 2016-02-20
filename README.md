@@ -6,3 +6,11 @@
 [![MIT License](https://img.shields.io/npm/l/ski-resorts.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 Get a random resort from a list of ski areas in the US North East, Rocky Mountain, and West Coast.
+
+# install
+
+With [npm](https://www.npmjs.com/) do:
+
+```
+npm install ski-resorts
+```
