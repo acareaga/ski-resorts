@@ -33,7 +33,7 @@ skiResorts.random(3)
 
 ## Dependencies
 
-Built with the following versions:
+Uses with the following versions:
 
 ```
 "unique-random-array": "1.0.0",
